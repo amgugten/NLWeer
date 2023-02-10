@@ -9,10 +9,12 @@
     <string name="action_share">Deel kaart</string>
     <string name="action_settings">Instellingen</string>
     <string name="action_about">Info</string>
+    <string name="action_dashboard">Dashboard</string>
 
     <string name="menu_about">NLWeer</string>
     <string name="menu_settings">Instellingen</string>
     <string name="menu_empty">Leeg scherm</string>
+    <string name="menu_dashboard">Dashboard</string>
 
     <string name="menu_knmi_header">Bron: KNMI</string>
     <string name="menu_knmi_rain_m1">Regen afgelopen uur (+temp)</string>

@@ -145,6 +145,7 @@ class MainActivity : AppCompatActivity() {
                 fragment<MapFragment>(R.id.nav_empty) { label = getString(R.string.menu_empty) }
                 fragment<AboutFragment>(R.id.nav_about) { label = getString(R.string.menu_about) }
                 fragment<SettingsFragment>(R.id.nav_settings) { label = getString(R.string.menu_settings) }
+                fragment<DashboardFragment>(R.id.nav_dashboard) { label = getString(R.string.menu_dashboard) }
             }
         }
 
@@ -268,6 +269,13 @@ class MainActivity : AppCompatActivity() {
         val navController = findNavController(R.id.nav_host_fragment)
         if (navController.currentDestination?.id != R.id.nav_about) {
             navController.navigate(R.id.nav_about)
+        }
+    }
+
+    fun onClickDashboard(@Suppress("UNUSED_PARAMETER") v: MenuItem) {
+        val navController = findNavController(R.id.nav_host_fragment)
+        if (navController.currentDestination?.id != R.id.nav_dashboard) {
+            navController.navigate(R.id.nav_dashboard)
         }
     }
 

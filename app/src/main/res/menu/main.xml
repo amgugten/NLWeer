@@ -25,4 +25,10 @@
         android:onClick="onClickAbout"
         android:title="@string/action_about"
         app:showAsAction="never" />
+    <item
+        android:id="@+id/action_dashboard"
+        android:orderInCategory="300"
+        android:onClick="onClickDashboard"
+        android:title="@string/action_dashboard"
+        app:showAsAction="never" />
 </menu>

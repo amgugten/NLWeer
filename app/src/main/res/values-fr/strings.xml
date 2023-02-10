@@ -8,10 +8,12 @@
     <string name="action_share">Partager la carte</string>
     <string name="action_settings">Paramètres</string>
     <string name="action_about">Info</string>
+    <string name="action_dashboard">Dashboard</string>
 
     <string name="menu_about">NLWeer</string>
     <string name="menu_settings">Paramètres</string>
     <string name="menu_empty">Écran vide</string>
+    <string name="menu_dashboard">Dashboard</string>
 
     <string name="menu_knmi_header">Données KNMI</string>
     <string name="menu_knmi_rain_m1">Pluie la dernière heure (+temp)</string>
