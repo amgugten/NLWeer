@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.viewModels
 import foss.cnugteren.nlweer.databinding.FragmentDashboardBinding
+import foss.cnugteren.nlweer.model.DashboardViewModel
 
 class DashboardFragment : Fragment() {
 
@@ -36,7 +37,7 @@ class DashboardFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         _binding?.apply {
             lifecycleOwner = viewLifecycleOwner
-            viewModelInXml = viewModel
+            vm = viewModel
         }
         viewModel.getKnmiData("Zwolle")
     }

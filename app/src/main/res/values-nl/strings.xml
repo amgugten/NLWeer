@@ -132,4 +132,10 @@
     <string name="colour_yellow">Geel</string>
     <string name="colour_purple">Paars</string>
     <string name="colour_green">Groen</string>
+
+    <string name="label_temperature">Temperatuur</string>
+    <string name="label_sun_up">Zon op</string>
+    <string name="label_sun_down">Zon onder</string>
+    <string name="weather_icon_description">Ikoon dat het weer op dit moment weergeeft</string>
+
 </resources>

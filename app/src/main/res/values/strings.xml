@@ -131,6 +131,10 @@
     <string name="colour_yellow">Yellow</string>
     <string name="colour_purple">Purple</string>
     <string name="colour_green">Green</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="label_temperature">Temperature</string>
+    <string name="label_sun_up">Sun up</string>
+    <string name="label_sun_down">Sun down</string>
+    <string name="weather_icon_description">Icon that shows current weather condition</string>
+
 </resources>
